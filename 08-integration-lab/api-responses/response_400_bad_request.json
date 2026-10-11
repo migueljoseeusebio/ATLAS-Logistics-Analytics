@@ -1,0 +1,12 @@
+{
+  "http_status": 400,
+  "error": "MALFORMED_JSON",
+  "message": "The request body is not valid JSON.",
+  "request_id": "req-9a4e6c71",
+  "timestamp": "2026-10-11T11:00:00Z",
+  "parse_error": {
+    "line": 3,
+    "column": 3,
+    "detail": "Expected a comma or closing brace before source_system."
+  }
+}

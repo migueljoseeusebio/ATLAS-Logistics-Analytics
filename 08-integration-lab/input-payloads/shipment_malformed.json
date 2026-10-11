@@ -1,0 +1,26 @@
+{
+  "shipment_id": "AT-1026"
+  "source_system": "ERP",
+  "customer": {
+    "customer_id": "CUS-002",
+    "customer_name": "Brava"
+  },
+  "carrier_code": "C03",
+  "route": {
+    "origin": "Braga",
+    "destination": "Madrid"
+  },
+  "shipment_date": "2026-10-13",
+  "expected_delivery_date": "2026-10-16",
+  "actual_delivery_date": null,
+  "status": "PLANNED",
+  "currency": "EUR",
+  "cost_eur": 510.00,
+  "lines": [
+    {
+      "line_id": 1,
+      "sku": "SKU-4003",
+      "pallets_planned": 6
+    }
+  ]
+}

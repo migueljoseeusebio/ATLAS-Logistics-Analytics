@@ -1,0 +1,25 @@
+{
+  "shipment_id": "",
+  "source_system": "ERP",
+  "customer": {
+    "customer_name": "Eixo"
+  },
+  "carrier_code": "C99",
+  "route": {
+    "origin": "Aveiro",
+    "destination": 100
+  },
+  "shipment_date": "2026-10-15",
+  "expected_delivery_date": "2026-10-14",
+  "actual_delivery_date": null,
+  "status": "PLANNED",
+  "currency": "EUR",
+  "cost_eur": -90,
+  "lines": [
+    {
+      "line_id": 1,
+      "sku": "SKU-3002",
+      "pallets_planned": 0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "http_status": 422,
+  "error": "VALIDATION_FAILED",
+  "message": "The shipment payload contains validation errors.",
+  "request_id": "req-7f3b2a19",
+  "timestamp": "2026-10-11T10:30:00Z",
+  "errors": [
+    {
+      "field": "shipment_id",
+      "code": "EMPTY_REQUIRED_FIELD",
+      "message": "shipment_id must not be empty."
+    },
+    {
+      "field": "customer.customer_id",
+      "code": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required."
+    },
+    {
+      "field": "carrier_code",
+      "code": "REFERENCE_NOT_FOUND",
+      "message": "Carrier C99 does not exist in the TMS master data."
+    },
+    {
+      "field": "route.destination",
+      "code": "TYPE_MISMATCH",
+      "message": "destination must be a string."
+    },
+    {
+      "field": "expected_delivery_date",
+      "code": "INVALID_DATE_SEQUENCE",
+      "message": "expected_delivery_date must not be earlier than shipment_date."
+    },
+    {
+      "field": "cost_eur",
+      "code": "VALUE_BELOW_MINIMUM",
+      "message": "cost_eur must be greater than or equal to zero."
+    },
+    {
+      "field": "lines[0].pallets_planned",
+      "code": "VALUE_BELOW_MINIMUM",
+      "message": "pallets_planned must be greater than zero."
+    }
+  ]
+}

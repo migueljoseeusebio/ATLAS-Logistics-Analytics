@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shipment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <shipment_id>AT-1025</shipment_id>
+  <source_system>ERP</source_system>
+  <customer>
+    <customer_id>CUS-001</customer_id>
+    <customer_name>Aster</customer_name>
+  </customer>
+  <carrier_code>C02</carrier_code>
+  <route>
+    <origin>Porto</origin>
+    <destination>Lisboa</destination>
+  </route>
+  <shipment_date>2026-10-12</shipment_date>
+  <expected_delivery_date>2026-10-14</expected_delivery_date>
+  <actual_delivery_date xsi:nil="true" />
+  <status>PLANNED</status>
+  <currency>EUR</currency>
+  <cost_eur>420.50</cost_eur>
+  <lines>
+    <line>
+      <line_id>1</line_id>
+      <sku>SKU-1001</sku>
+      <pallets_planned>5</pallets_planned>
+    </line>
+    <line>
+      <line_id>2</line_id>
+      <sku>SKU-2004</sku>
+      <pallets_planned>3</pallets_planned>
+    </line>
+  </lines>
+</shipment>
