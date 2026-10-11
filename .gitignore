@@ -1,0 +1,28 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# Office temporary files
+~$*
+
+# Power BI temporary and cache files
+*.pbix.autosave
+*.pbit.autosave
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local working material that must not be published
+private/
+working/
+raw-data/
+00_Project_Control/
+*.inspect.ndjson
